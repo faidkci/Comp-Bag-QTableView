@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>623</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Comp/Bag Manager</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabComp">
+       <attribute name="title">
+        <string>Comp</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="vLayoutComp">
+        <item>
+         <layout class="QHBoxLayout" name="hFilesComp">
+          <item>
+           <widget class="QLineEdit" name="compFile1"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="compLoad1">
+            <property name="text">
+             <string>Загрузить Comp1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="compFile2"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="compLoad2">
+            <property name="text">
+             <string>Загрузить Comp2</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="hActionsComp">
+          <item>
+           <widget class="QPushButton" name="compCombine">
+            <property name="text">
+             <string>Объединить</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="compSortAsc">
+            <property name="text">
+             <string>Сорт.(возр.)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="compSortDesc">
+            <property name="text">
+             <string>Сорт.(уб.)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="compSearch"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="compSearchBtn">
+            <property name="text">
+             <string>Поиск</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTableView" name="compTableView"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabBag">
+       <attribute name="title">
+        <string>Bag</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="vLayoutBag">
+        <item>
+         <layout class="QHBoxLayout" name="hFilesBag">
+          <item>
+           <widget class="QLineEdit" name="bagFile1"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bagLoad1">
+            <property name="text">
+             <string>Загрузить Bag1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="bagFile2"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bagLoad2">
+            <property name="text">
+             <string>Загрузить Bag2</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="hActionsBag">
+          <item>
+           <widget class="QPushButton" name="bagCombine">
+            <property name="text">
+             <string>Объединить</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bagSort">
+            <property name="text">
+             <string>Сорт(категор+назв)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="bagSearch"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bagSearchBtn">
+            <property name="text">
+             <string>Поиск</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTableView" name="bagTableView"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>623</width>
+     <height>36</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4 @@
+Nokia 3310;Phones;8000
+Samsung Galaxy;SmartPhones;15000
+Motorolla;Phones;5000
+Apple iPhone 15;SmartPhones;30000

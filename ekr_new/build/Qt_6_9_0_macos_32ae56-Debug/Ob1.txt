@@ -1,0 +1,4 @@
+Nokia 3320;Phones;7500
+Samsung Age;SmartPhones;1000
+Motorolla;Phones;5000
+Apple iPhone 10;SmartPhones;20000

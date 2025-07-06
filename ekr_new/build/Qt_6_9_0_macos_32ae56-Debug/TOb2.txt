@@ -1,0 +1,4 @@
+Nokia 3320;15;Phones
+Samsung Age;25;SmartPhones
+Motorolla;13;Phones
+Apple iPhone 15;35;SmartPhones
